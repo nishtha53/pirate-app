@@ -10,7 +10,7 @@ function getServerURL(text) {
 
 function errorHandler(error) {
     console.log("Error is :", error);
-    alert("Try Again!")
+    alert("Try Again after one hour!")
 }
 
 function clickHandler(){
@@ -20,7 +20,8 @@ function clickHandler(){
     .then(json=>{
         var translatedText = json.contents.translated;
         outputdiv.innerText = translatedText;
-    })   
+    }) 
+    .catch(errorHandler)  
 }
 
 buttonTranslate.addEventListener("click", clickHandler);
