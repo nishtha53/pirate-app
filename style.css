@@ -55,10 +55,8 @@ header {
 footer {
     margin-top: 5vh;
     width: 100%;
-    background-color: var(--primary-color);
     line-height: 5vh;
     text-align: center;
-
 }
 
 #btn-pirate-translator {
