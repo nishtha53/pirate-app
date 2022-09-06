@@ -12,4 +12,6 @@ Here is [Demo](https://pirate-js.netlify.app/) of the app.
 
 # Here is Layout of app.
 
+<img src="./gif/mark7.png" alt="pirate app">
+
 
